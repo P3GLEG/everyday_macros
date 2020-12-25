@@ -1,0 +1,21 @@
+[package]
+name = "everyday_macros"
+version = "0.1.0"
+authors = ["Pegleg <pegleg@linux.com>"]
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "1.0.24"
+syn = { version = "1.0.55", features=["parsing", "extra-traits"] }
+quote = "1.0.8"
+tokio = { version = "1.0", features=["time"] }
+rand = "0.8.0"
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+tokio = { version = "1.0", features=["rt", "macros"] }
+
+[package.metadata.docs.rs]
+all-features = true
