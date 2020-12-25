@@ -3,6 +3,14 @@ name = "everyday_macros"
 version = "0.1.0"
 authors = ["Pegleg <pegleg@linux.com>"]
 edition = "2018"
+license = "Apache-2.0 OR MIT"
+description = "This crate contains all the procedural macros you might use in your everyday life while coding. Things like a thread sleep timer or a retry on error."
+homepage = "https://github.com/P3GLEG/everyday_macros"
+documentation = "https://docs.rs/everyday_macros"
+repository = "https://github.com/P3GLEG/everyday_macros"
+readme = "README.md"
+keywords = ["proc-macro", "procedural"]
+categories = ["macro-utilities"]
 
 [dependencies]
 proc-macro2 = "1.0.24"
